@@ -1,4 +1,4 @@
-   EIP: 1
+    EIP: 1
       Title: EIP Purpose and Guidelines
       Status: Draft
       Type: Meta
