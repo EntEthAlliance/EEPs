@@ -1,11 +1,11 @@
-    EIP: 1
+    EEP: 1
       Title: EIP Purpose and Guidelines
       Status: Draft
       Type: Meta
       Author: Martin Becze <mb@ethereum.org>, Hudson Jameson <hudson@ethereum.org>
       Created: 2015-10-27, 2017-02-01
 
-What is an EIP?
+What is an EEP?
 --------------
 
 EIP stands for Ethereum Improvement Proposal. An EIP is a design document providing information to the Ethereum community, or describing a new feature for Ethereum or its processes or environment. The EIP should provide a concise technical specification of the feature and a rationale for the feature. The EIP author is responsible for building consensus within the community and documenting dissenting opinions.
