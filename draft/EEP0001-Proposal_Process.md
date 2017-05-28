@@ -1,14 +1,14 @@
     EEP: 1
-      Title: EIP Purpose and Guidelines
+      Title: Proposal Process
       Status: Draft
-      Type: Meta
-      Author: Martin Becze <mb@ethereum.org>, Hudson Jameson <hudson@ethereum.org>
-      Created: 2015-10-27, 2017-02-01
+      Type: Process
+      Author: Alex Batlin <alex.batlin@bnymellon.com>
+      Created: 2017-05-28
 
 What is an EEP?
 --------------
 
-EIP stands for Ethereum Improvement Proposal. An EIP is a design document providing information to the Ethereum community, or describing a new feature for Ethereum or its processes or environment. The EIP should provide a concise technical specification of the feature and a rationale for the feature. The EIP author is responsible for building consensus within the community and documenting dissenting opinions.
+EEP stands for Enterprise Ethereum Proposal. An EIP is a design document providing information to the Ethereum community, or describing a new feature for Ethereum or its processes or environment. The EIP should provide a concise technical specification of the feature and a rationale for the feature. The EIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
 EIP Rational
 ------------
@@ -17,10 +17,36 @@ We intend EIPs to be the primary mechanisms for proposing new features, for coll
 
 For Ethereum implementers, EIPs are a convenient way to track the progress of their implementation. Ideally each implementation maintainer would list the EIPs that they have implemented. This will give end users a convenient way to know the current status of a given implementation or library.
 
-EIP Types
+EEP Statuses
+------------
+
+Folder per status at root level.
+
+* [draft](draft) - EEPs that are open for consideration
+* [accepted](accepted) - EEPs that are planned for immediate adoption
+* [final](final) - EEPs that have been adopted
+* [deferred](deferred) - EEPs that are planned for adoption in future
+
+EEP Working Groups
+------------------
+
+Branch per working or sub-working group
+
+* process
+* groups
+
+EEP Types
 ---------
 
-There are three types of EIP:
+Sub-folder for each.
+
+There are three types of EEP:
+
+* standard
+* process
+* group
+* template
+* misc
 
 -   A **Standard Track EIP** describes any change that affects most or all Ethereum implementations, such as a change to the the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Ethereum. Furthermore Standard EIPs can be broken down into the following categories.
     -   **Core** - improvements requiring a consensus fork (e.g. [EIP5], [EIP101]), as well as changes that are not necessarily consensus critical but may be relevant to “core dev” discussions (for example, [EIP90], and the miner/node strategy changes 2, 3, and 4 of [EIP86]).
@@ -31,7 +57,9 @@ There are three types of EIP:
 -   An **Informational EIP** describes a Ethereum design issue, or provides general guidelines or information to the Ethereum community, but does not propose a new feature. Informational EIPs do not necessarily represent Ethereum community consensus or a recommendation, so users and implementers are free to ignore Informational EIPs or follow their advice.
 -   A **Meta EIP** describes a process surrounding Ethereum or proposes a change to (or an event in) a process. Process EIPs are like Standards Track EIPs but apply to areas other than the Ethereum protocol itself. They may propose an implementation, but not to Ethereum's codebase; they often require community consensus; unlike Informational EIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Ethereum development. Any meta-EIP is also considered a Process EIP.
 
-EIP Work Flow
+
+
+EEP Work Flow
 -------------
 
 The EIP repository Collaborators change the EIPs status. Please send all EIP-related email to the EIP Collaborators, which is listed under EIP Editors below. Also see EIP Editor Responsibilities & Workflow.
