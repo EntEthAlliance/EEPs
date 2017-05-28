@@ -1,4 +1,4 @@
-This is the suggested template for new EEPs. File names should be formatted as 'EEP<nnnn>-<abbreviated>_<title>.md' e.g. EEP0002-Proposal_Template.md. EEP number should be based on the issue number that was submitted to discuss the proposal.
+This is the suggested template for new EEPs. File names should be formatted as EEP<nnnn>-<_abbreviated_>_<_title_>.md e.g. EEP0002-Proposal_Template.md. EEP number should be based on the issue number that was submitted to discuss the proposal.
 
 ## Preamble
 
