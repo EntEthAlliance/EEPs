@@ -21,7 +21,7 @@ EEP File
 
 An EEP is nothing but a [Markdown](https://help.github.com/categories/writing-on-github/).md text file. Each EEP text file is created in response to a new GitHub issue, which determines the EEPs number and is used to discuss the EEP.
 
-An EEP should follow this naming format, using grep-like conventions: EEP[0-9]{4}-[a-zA-Z_]+\.md e.g. EEP0001-Proposal_Process.md.
+An EEP should follow this naming format, using grep-like conventions: EEP[0-9]{4}-[a-zA-Z_]+\\.md e.g. EEP0001-Proposal_Process.md.
 
 EEP Status
 ----------
