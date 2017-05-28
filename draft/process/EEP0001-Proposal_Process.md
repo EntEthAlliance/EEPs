@@ -38,14 +38,14 @@ Branch per working or sub-working group
 EEP Types
 ---------
 
-Sub-folder for each.
+Sub-folder under status folder for each.
 
 There are three types of EEP:
 
-* standard
+* standards
 * process
-* group
-* template
+* groups
+* templates
 * misc
 
 -   A **Standard Track EIP** describes any change that affects most or all Ethereum implementations, such as a change to the the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Ethereum. Furthermore Standard EIPs can be broken down into the following categories.
