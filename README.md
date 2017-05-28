@@ -3,7 +3,7 @@ Enterprise Ethereum Proposals (EEPs) describe the standards for Enterprise Ether
 
 # Contributing
 * Review [EEP0001 Proposal Process](draft/EEP0001-Proposal_Process.md).
-* Raise a [new](../../issues/new) proposal as an issue to discuss it.
+* Raise a new proposal discussion by submitting a [new issue](../../issues/new).
 * Clone [this](https://github.com/EntEthAlliance/EEPs) repository and add your [EEP0002 Proposal Template](draft/EEP0002-Proposal_Template.md) based proposal write-up to [draft](https://github.com/EntEthAlliance/EEPs/tree/master/draft) folder.
 * Submit a pull request.
 
