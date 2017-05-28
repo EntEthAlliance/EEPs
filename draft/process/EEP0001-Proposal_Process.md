@@ -1,21 +1,16 @@
-    EEP: 1
-      Title: Proposal Process
-      Status: Draft
-      Type: Process
-      Author: Alex Batlin <alex.batlin@bnymellon.com>
-      Created: 2017-05-28
+    EEP: 0001
+    Title: Proposal Process
+    Obsoletes: N/A
 
 What is an EEP?
 --------------
 
-EEP stands for Enterprise Ethereum Proposal. An EIP is a design document providing information to the Ethereum community, or describing a new feature for Ethereum or its processes or environment. The EIP should provide a concise technical specification of the feature and a rationale for the feature. The EIP author is responsible for building consensus within the community and documenting dissenting opinions.
+EEP stands for Enterprise Ethereum Proposal. EEPs are inspired by [EIPs](https://github.com/ethereum/EIPs). They are used to describe a wide range of artifacts e.g. design specifications, working groups, process guides, templates etc. EEPs should provide concise problem, rationale and solution statements. They should be managed within an existing or new working group. The EEP author is responsible for building consensus within the community and documenting dissenting opinions.
 
-EIP Rational
-------------
+EEP Rationale
+-------------
 
-We intend EIPs to be the primary mechanisms for proposing new features, for collecting community input on an issue, and for documenting the design decisions that have gone into Ethereum. Because the EIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
-
-For Ethereum implementers, EIPs are a convenient way to track the progress of their implementation. Ideally each implementation maintainer would list the EIPs that they have implemented. This will give end users a convenient way to know the current status of a given implementation or library.
+EEPs are intednded to be the primary mechanism for proposing new features, new working groups, and new processes, for collecting community input on an issue, and for documenting the design decisions that have gone into Enterprise Ethereum. Because EEPS are maintained as text files in a versioned repository, an EEPs author, date, revision history etc. are not maintained in the document itself, but rather in the repository. When the proposal is shared outside the repository, it is advisable to also include document repository metadata.
 
 EEP Statuses
 ------------
@@ -195,29 +190,6 @@ It occasionally becomes necessary to transfer ownership of EIPs to a new champio
 
 If you are interested in assuming ownership of an EIP, send a message asking to take over, addressed to both the original author and the EIP editor. If the original author doesn't respond to email in a timely manner, the EIP editor will make a unilateral decision (it's not like such decisions can't be reversed :).
 
-EIP Editors
------------
-
-The current EIP editors are
-
-` * Casey Detrio (@cdetrio)`
-
-` * Fabian Vogelsteller (@frozeman)`
-
-` * Gavin Wood (@gavofyork)`
-
-` * Hudson Jameson (@Souptacular)`
-
-` * Jeffrey Wilcke (@obscuren)`
-
-` * Martin Becze (@wanderer)`
-
-` * Nick Johnson (@arachnid)`
-
-` * Roman Mandeleil (@romanman)`
-
-` * Vitalik Buterin (@vbuterin)`
-
 EIP Editor Responsibilities and Workflow
 --------------------------------------
 
@@ -248,43 +220,3 @@ Once the EIP is ready for the repository, the EIP editor will:
 Many EIPs are written and maintained by developers with write access to the Ethereum codebase. The EIP editors monitor EIP changes, and correct any structure, grammar, spelling, or markup mistakes we see.
 
 The editors don't pass judgment on EIPs. We merely do the administrative & editorial part.
-
-History
--------
-
-This document was derived heavily from [Bitcoin's BIP-0001] written by Amir Taaki which in turn was derived from [Python's PEP-0001]. In many places text was simply copied and modified. Although the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use in the Ethereum Improvement Process, and should not be bothered with technical questions specific to Ethereum or the EIP. Please direct all comments to the EIP editors.
-
-December 7, 2016: EIP 1 has been improved and will be placed as a PR.
-
-February 1, 2016: EIP 1 has added editors, made draft improvements to process, and has merged with Master stream.
-
-  [EIP5]: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-5.md
-  [EIP101]: https://github.com/ethereum/EIPs/issues/28
-  [EIP90]: https://github.com/ethereum/EIPs/issues/90
-  [EIP86]: https://github.com/ethereum/EIPs/issues/86#issue-145324865
-  [devp2p]: https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol
-  [EIP8]: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8.md
-  [Light Ethereum Subprotocol]: https://github.com/ethereum/wiki/wiki/Light-client-protocol
-  [whisper]: https://gist.github.com/gluk256/4654922ca45eb9d0846d941d7ca326f4
-  [swarm]: https://github.com/ethereum/go-ethereum/pull/2959
-  [API/RPC]: https://github.com/ethereum/wiki/wiki/JSON-RPC
-  [EIP59]: https://github.com/ethereum/EIPs/issues/59
-  [EIP6]: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6.md
-  [contract ABIs]: https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI
-  [interfaces repo]: https://github.com/ethereum/interfaces
-  [ERC20]: https://github.com/ethereum/EIPs/issues/20
-  [ERC26]: https://github.com/ethereum/EIPs/issues/26
-  [ERC137]: https://github.com/ethereum/EIPs/issues/137
-  [ERC67]: https://github.com/ethereum/EIPs/issues/67
-  [EIP82]: https://github.com/ethereum/EIPs/issues/82
-  [EIP75]: https://github.com/ethereum/EIPs/issues/75
-  [EIP85]: https://github.com/ethereum/EIPs/issues/85
-  [the Ethereum subreddit]: https://www.reddit.com/r/ethereum/
-  [one of the Ethereum Gitter chat rooms]: https://gitter.im/ethereum/
-  [pull request]: https://github.com/ethereum/EIPs/pulls
-  [formal specification]: https://github.com/ethereum/yellowpaper
-  [the Issues section of this repository]: https://github.com/ethereum/EIPs/issues
-  [markdown]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-  [README.md]: README.md "wikilink"
-  [Bitcoin's BIP-0001]: https://github.com/bitcoin/bips
-  [Python's PEP-0001]: https://www.python.org/dev/peps/
