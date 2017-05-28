@@ -1,5 +1,5 @@
 # EEPs
-Enterprise Ethereum Proposals (EEPs) describe the standards for Enterprise Ethereum, including core protocol specifications, client APIs, and contract standards. EEPs are based on Ethereum's EIPs.
+Enterprise Ethereum Proposals (EEPs) describe the standards for Enterprise Ethereum Alliance, including core protocol specifications, client APIs, and contract standards. EEPs are inspired by [EIPs](https://github.com/ethereum/EIPs).
 
 # Contributing
 First review [EEP-1](draft/EEP-1.md). Then clone the repository and add your EEP to it. There is a [template EEP here](draft/EEP-2.md). Then submit a Pull Request to EntEthAlliance's [EEPs repository](https://github.com/EntEthAlliance/EEPs).
