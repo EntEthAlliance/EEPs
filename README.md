@@ -2,10 +2,13 @@
 Enterprise Ethereum Proposals (EEPs) describe the standards for Enterprise Ethereum Alliance, including core protocol specifications, client APIs, and contract standards. EEPs are inspired by [EIPs](https://github.com/ethereum/EIPs).
 
 # Contributing
-First review [EEP-1](draft/EEP-1.md). Then clone the repository and add your EEP to it. There is a [template EEP here](draft/EEP-2.md). Then submit a Pull Request to EntEthAlliance's [EEPs repository](https://github.com/EntEthAlliance/EEPs).
+* Review [EEP0001-Proposal Process](draft/EEP0001-Proposal Process.md).
+* Raise an issue to discuss a new proposal.
+* Clone the repository and add your EEP to it.
+* Submit a pull request.
 
-# EEP status folders
-* **Draft** - an EEP that is open for consideration
-* **Accepted** - an EEP that is planned for immediate adoption, i.e. expected to be included in the next hard fork (for Core/Consensus layer EEPs).
-* **Final** - an EEP that has been adopted in a previous hard fork (for Core/Consensus layer EEPs).
-* **Deferred** - an EIP that is not being considered for immediate adoption. May be reconsidered in the future for a subsequent hard fork.
+# Folders
+* **draft** - EEPs that are open for consideration
+* **accepted** - EEPs that are planned for immediate adoption
+* **final** - EEPs that have been adopted
+* **deferred** - EEPs that are planned for adoption in future
