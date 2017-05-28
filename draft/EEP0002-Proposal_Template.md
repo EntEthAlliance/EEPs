@@ -1,6 +1,4 @@
-This is the suggested template for new EEPs. It is based on EIPs.
-
-Note that an EEP number will be assigned by an editor. When opening a pull request to submit your EEP, please use an abbreviated title in the filename, `eep-draft_title_abbrev.md`.
+This is the suggested template for new EEPs. File names should be formatted as 'EEP<nnnn>-<abbreviated>_<title>.md' e.g. EEP0002-Proposal_Template.md. EEP number should be based on the issue number that was submitted to discuss the proposal.
 
 ## Preamble
 
@@ -10,6 +8,7 @@ Note that an EEP number will be assigned by an editor. When opening a pull reque
     Type: <Standard Track | Informational | Meta>
     Category (*only required for Standard Track): <Core | Networking | Interface | ERC> 
     Status: Draft
+    Working Group: <EEP of the (sub) working group?
     Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
     Requires (*optional): <EEP number(s)>
     Replaces (*optional): <EEP number(s)>
@@ -21,10 +20,10 @@ Note that an EEP number will be assigned by an editor. When opening a pull reque
 A short (~200 word) description of the technical issue being addressed.
 
 ## Motivation
-The motivation is critical for EEPs that want to change the Ethereum protocol. It should clearly explain why the existing protocol specification is inadequate to address the problem that the EIP solves. EIP submissions without sufficient motivation may be rejected outright.
+The motivation is critical for EEPs. It should clearly explain the problem that the proposal aims to resolve. EEP submissions without sufficient motivation may be rejected outright.
 
 ## Specification
-The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current Ethereum platforms (cpp-ethereum, go-ethereum, parity, ethereumj, ethereumjs, ...). 
+The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current Ethereum platforms.
 
 ## Rationale
 The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.
