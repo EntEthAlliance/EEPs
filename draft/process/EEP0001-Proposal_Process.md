@@ -5,24 +5,41 @@
 What is an EEP?
 --------------
 
-EEP stands for Enterprise Ethereum Proposal. EEPs are inspired by [EIPs](https://github.com/ethereum/EIPs). They are used to describe a wide range of artifacts e.g. design specifications, working groups, process guides, templates etc. EEPs should provide concise problem, rationale and solution statements. They should be managed within an existing or new working group. The EEP author is responsible for building consensus within the community and documenting dissenting opinions.
+EEP stands for Enterprise Ethereum Proposal. EEPs are inspired by [EIPs](https://github.com/ethereum/EIPs). An EEP is nothing but a text file, with an accompanying GitHub issue used for discussions about the text file.
+
+EEPs are used to describe a wide range of artifacts e.g. design specifications, working groups, process guides, templates etc. They should provide concise problem, rationale and solution statements. EEPs should be managed within an existing or new working group. The EEP author is responsible for building consensus within the community and documenting dissenting opinions.
+
+Because EEPS are maintained as text files in a versioned repository, an EEPs author, date, revision history etc. are not maintained in the document itself, but rather as repository metadata. When the proposal is shared outside the repository, it is advisable to also include document repository metadata.
 
 EEP Rationale
 -------------
 
-EEPs are intednded to be the primary mechanism for proposing new features, new working groups, and new processes, for collecting community input on an issue, and for documenting the design decisions that have gone into Enterprise Ethereum. Because EEPS are maintained as text files in a versioned repository, an EEPs author, date, revision history etc. are not maintained in the document itself, but rather in the repository. When the proposal is shared outside the repository, it is advisable to also include document repository metadata.
+EEPs are intended to be the primary mechanism for proposing new features, new working groups, and new processes, for collecting community input on an issue, and for documenting the design decisions that have gone into Enterprise Ethereum. 
 
-EEP Statuses
-------------
+EEP File
+--------
 
-Folder per status at root level.
+An EEP is nothing but a [Markdown](https://help.github.com/categories/writing-on-github/).md text file. Each EEP text file is created in response to a new GitHub issue, which determines the EEPs number and is used to discuss the EEP.
 
-* [draft](draft) - EEPs that are open for consideration
-* [accepted](accepted) - EEPs that are planned for immediate adoption
-* [final](final) - EEPs that have been adopted
-* [deferred](deferred) - EEPs that are planned for adoption in future
+An EEP should follow this naming format, using grep-like conventions: EEP[0-9]{4}-[a-zA-Z_]+\.md e.g. EEP0001-Proposal_Process.md.
 
-EEP Working Groups
+EEP Status
+----------
+
+Each EEP has a status. Status is a function of the repository root sub-folder, which the EEP resides under e.g. if you wish to set EEP status to draft, save the file under root/draft folder, and if you wish to promote it to accepted, move the file to root/accepted.
+
+* ***draft*** - EEPs that are open for consideration
+* ***accepted*** - EEPs that are planned for immediate adoption
+* ***final*** - EEPs that have been adopted
+* ***deferred*** - EEPs that are planned for adoption in future
+* ***obsolete*** - EEPs that are obsolete
+
+EEP Type
+--------
+
+Each EEP has a type. Type is a function of the status sub-folder, which the EEP resides under e.g. if you wish to set EEP type to process, save the file under ${status}/process folder.
+
+EEP Groups
 ------------------
 
 Branch per working or sub-working group
