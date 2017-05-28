@@ -4,11 +4,11 @@ Enterprise Ethereum Proposals (EEPs) describe the standards for Enterprise Ether
 # Contributing
 * Review [EEP0001 Proposal Process](draft/EEP0001-Proposal_Process.md).
 * Raise a new proposal discussion by submitting a [new issue](../../issues/new).
-* Clone [this](https://github.com/EntEthAlliance/EEPs) repository and add your [EEP0002 Proposal Template](draft/EEP0002-Proposal_Template.md) based proposal write-up to [draft](https://github.com/EntEthAlliance/EEPs/tree/master/draft) folder.
+* Document proposal by cloning this reposity and adding [EEP0002 Proposal Template](draft/EEP0002-Proposal_Template.md) based write-up to [draft](draft) folder on a chosen sub-working group's branch.
 * Submit a pull request.
 
 # Folders
-* **[draft](https://github.com/EntEthAlliance/EEPs/tree/master/draft)** - EEPs that are open for consideration
-* **[accepted](https://github.com/EntEthAlliance/EEPs/tree/master/accepted)** - EEPs that are planned for immediate adoption
-* **[final](https://github.com/EntEthAlliance/EEPs/tree/master/final)** - EEPs that have been adopted
-* **[deferred](https://github.com/EntEthAlliance/EEPs/tree/master/deferred)** - EEPs that are planned for adoption in future
+* **[draft](draft)** - EEPs that are open for consideration
+* **[accepted](accepted)** - EEPs that are planned for immediate adoption
+* **[final](final)** - EEPs that have been adopted
+* **[deferred](deferred)** - EEPs that are planned for adoption in future
