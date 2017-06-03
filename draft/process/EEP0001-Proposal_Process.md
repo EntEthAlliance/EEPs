@@ -28,11 +28,7 @@ Issues can also be created to add to an existing draft document i.e. multiple is
 
 # EEP Group
 
-Each EEP is managed by a working group. Each working group has a dedicated branch to work on. Once the group is ready to submit the work to a governance body, a pull request is created. Working group creation, like everything else, is managed as an EEP. To see the list of approved working groups and their branches, check out the EEPs. Some example groups and their branches:
-
-* **process** - branch managed by Process Working Group
-* **groups** - branch managed by Groups Working Group
-* **misc** - branch managed by Misc Working Group, responsible for reviewing proposals that do not fit existing groups
+Each EEP is managed by a working group. Each working group has a dedicated branch to work on, named after the EEP that was raised to propose the group. Once the group is ready to submit the work to a governance body, a pull request is created. Working group creation, like everything else, is managed as an EEP. To see the list of approved working groups, check out the EEPs.
 
 # EEP Status
 
